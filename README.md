@@ -18,4 +18,4 @@ cmake -S . -B build/
 
 ## Note
 
-Build will only succeed on Windows due to reliance on Windows.h
+Build will only succeed on Windows due to reliance on Windows.h. This dependency can be removed by simply copying the relevant structs in a header file and including that in pe_parser.h file
